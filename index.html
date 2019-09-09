@@ -1,0 +1,307 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<style>
+		*{
+			margin: 0; padding: 0; font-family: 'Josefin Sans', sans-serif;
+			/* Make the image fully responsive */
+		}
+
+		.sticky {
+			position: fixed;
+			right: 0;
+			left: 0;
+			z-index: 999;
+		}
+		.display{
+			padding-top: 50px;
+		}
+
+		#contact{
+			height: 80px;
+			background: teal;
+			font-size: 25px;
+		}
+		.striped
+		{
+			background: #b2dfdb;
+		}
+		.img-responsive {
+			width: 350px;
+			height: 200px;
+		}
+
+		.carousel-item{
+			width: 100%;
+			height: 100%;
+		} 
+		.carousel-item img{
+			width: 100%;
+			height: 700px;
+		}
+
+        .carousel-caption {
+            text-align: center;
+            top: 243.5px;
+            height: 2.5rem;
+        }
+
+				
+	</style>
+</head>
+
+<body>
+	<header >		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#about">ABOUT ME <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">SKILLS <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#experience">EXPERIENCE <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#education">EDUCATION <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">PORTFOLIO <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#cont">CONTACT <span class="sr-only">(current)</span></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div id="demo" class="carousel slide " data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/ocean1.jpg" alt="image" width="1100" height="500">
+					<div class="carousel-caption d-md-block">
+						<h1 class="display-4"><strong>Jesie Sangha</strong></h1>
+						<h3>Software Developer</h3>
+					</div>
+				</div>				
+			</div>			
+		</div>			
+	</header>
+
+	<section id="about" class="display">
+		<div class="container">
+			<h1 class="text-center text-capitalize pt-5">ABOUT ME</h1>
+			<hr class="w-25 mx-auto pt-5">
+
+			<div class="row mb-5">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<img src="images/jesie.jpg" class="img-fluid">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<h1>Who am I?</h1>
+					<strong>HI, IT's ME !</strong>
+					<p>
+						i like building awesome software. Recently i have built both Desktop and Web applications using C#, ASP.NET MVC. i have maintained various applications while working at the City of Calgary. After taking break from work for few years, i enrolled in the OOSD program to expand my knowledge base to be better equipped for market requirements. I especially enjoy working with Object Oriented Programming languages like C# and Java. If you are interested, please send me an 
+						<a href="#cont">email</a>.
+					</p>				
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="skills" class="display">
+		<div class="striped">
+			<div class="container mb-5">
+				<h1 class="text-center text-capitalize pt-5">TECHNICAL SKILLS</h1>
+				<hr class="w-25 mx-auto pt-5">
+				<p>	
+					I've worked with a wide variety of programming languages. For web applications, i use C# and ASP.NET MVC with ADO.NET or Entity Framework.
+				</p>
+				<div class="row text-center">					
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<strong>Programming Languages</strong>
+						<ul style="list-style-type:none"> 
+							<li>C#</li>
+							<li> ASP.NET MVC</li> 
+							<li>Java</li> 
+							<li>JavaScript</li>
+							<li>PHP</li> 
+							<li>Ajax</li> 
+							<li>XML</li> 
+							<li>CSS</li> 
+							<li>HTML</li> 
+							<li>JSON</li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<strong>Databases & Languages</strong>
+						<ul style="list-style-type:none">
+							<li>Oracle</li> 
+							<li>SQL Server</li> 
+							<li>PL/SQL</li> 
+							<li>SQL</li> 						
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<strong>Tools</strong>
+                        <ul style="list-style-type:none">
+                            <li>Visual Studio</li>
+                            <li>IntelliJ</li>
+                            <li>Git</li>
+                            <li>Bitbucket</li>
+                            <li>Remedy</li>
+                            <li>SSMS</li>
+                            <li>SQL Plus</li>
+                            <li>TOAD</li>
+                            <li>Altova Spy</li>
+                        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="experience" class="display">
+		<div class="container">
+			<h1 class="text-center text-capitalize pt-5">WORK EXPERIENCE</h1>
+			<hr class="w-25 mx-auto pt-5">
+
+			<h3 class="text-center text-capitalize py-2"><strong>Software Developer</strong></h3>	
+			<div>
+				<strong> Company: The City of Calgary</strong>
+			</div>
+			<div>
+				<strong class="ml-auto">Period: </strong> May 2005-Oct 2009
+			</div>		
+			<div>
+				<p>
+					I've held 2 different positions in this Organization. From full time intern to full time employee in the Application Support Center in the IT department. I've provided maintenance, support and technical assistance for a variety of property assessment related applications like Fairshare, SPSS, CSI, etc.
+				</p>
+			</div>
+			<hr/>
+
+			<h3 class="text-center text-capitalize"><strong>Software Developer</strong></h3>
+			<div>
+				<strong> Company: The University of Calgary</strong>
+			</div>
+			<div>
+				<strong class="ml-auto">Period: </strong> May 2004-Aug 2004
+			</div>
+			<div>
+				<p>
+					I’ve worked as a software developer as a summer job at the University of Calgary, with a professor and students at the Masters level. My job was to upgrade the existing project, making sure the program communicates with instruments like ISCO 6712 and Chemscan. In addition, I created reports and charts to get the trends of sample parameters, like Turbidity, PH, etc. of water in the Bow River.
+				</p>
+			</div>
+			<hr/>
+			<h3 class="text-center text-capitalize"><strong>Testing Specialist</strong></h3>
+			<div>
+				<strong> Company: Smart Technologies</strong>
+			</div>
+			<div>
+				<strong class="ml-auto">Period: </strong> Sept 2003-Dec 2003
+			</div>
+			<div>
+				<p>
+					I’ve configured and installed products such as Synchronous Eyes 4.0 and SMART Ideas 3.0. In addition i have developed the Acceptance Test Script for SMART Board 7.0.1. Used Test Scripts to ensure all aspects of the SMART Board for Mac OS10.2 were thoroughly tested.
+				</p>
+			</div>
+			
+		</div>
+	</section>
+	
+	<section id="education" class="display">
+		<div class="striped">
+
+			<div class="container">
+				<h1 class="text-center text-capitalize pt-5">EDUCATION</h1>
+				<hr class="w-25 mx-auto pt-5">
+
+
+				<h3 class="text-center text-capitalize"><strong>SAIT</strong></h3>
+				<p class="school-meta text-center">OBJECT ORIENTED SOFTWARE DEVELOPMENT CERTIFICATE</p>
+				<P>
+					I recently took Object Oriented Software Development program. OOSD is 32 week fast track full time program which has helped me to learn new tools and languages.  
+				</P>
+				<div class="text-center mb-4">
+					<strong>Graduating in: </strong>2019		
+				</div>
+				<div class="separator text-center">---</div>
+				<h3 class="text-center text-capitalize"><strong>UNIVERSITY OF CALGARY</strong></h3>
+				<p class="school-meta text-center">BACHELOR OF COMPUTER SCIENCE</p>
+
+				<P>
+					I studied Computer Science at the University of Calgary. I have gained strong knowledge in a wide variety of subjects including data structures, algorithms and computability. i am recipient of the Canada Millennium Award. 
+				</P>
+				<div class="text-center">
+					<strong>Graduated: </strong>2009		
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="portfolio" class="display">
+		<div class="container">
+			<h1 class="text-center text-capitalize pt-5">CLICK BELOW ON MY RECENT PROJECTS</h1>
+			<hr class="w-25 mx-auto pt-5">
+			<div class="row">
+				<div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+					<a href="SanghaBoutique.html">
+						<img src="images/SanghaBoutique/SanghaBoutique1.png" alt="gallery image" class="img-responsive border">	
+					</a>					
+				</div>
+				<div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+					<a href="CityPowerCompany.html">
+						<img src="images/CityPowerCompany/CityPowerCompany1.png" alt="gallery image" class="img-responsive border">	
+					</a>					
+				</div>
+
+				<div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+					<a href="Marina.html">
+						<img src="images/Marina/InlandMarina1.png" alt="gallery image" class="img-responsive border ">	
+					</a>					
+				</div>
+
+				<div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+					<a href="TravelDesktop.html">
+						<img src="images/TravelDesktop/TravelDesk1.png" alt="gallery image" class="img-responsive border ">	
+					</a>					
+				</div>
+				<div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+					<a href="TravelWeb.html">
+						<img src="images/TravelWeb/TravelWeb1.png" alt="gallery image" class="img-responsive border ">	
+					</a>					
+				</div>
+				<div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+					<a href="TempConverter.html">
+						<img src="images/TempConverter/TempConverter1.png" alt="gallery image" class="img-responsive border ">	
+					</a>					
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="cont" class="display">
+		<div id="contact" class="text-center">
+			<p>jesie.sangha@gmail.com</p>
+			<p> Phone: 587-436-4543</p>			
+		</div>	
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
